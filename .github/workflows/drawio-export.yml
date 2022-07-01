@@ -27,6 +27,7 @@ jobs:
           transparent: true
           output: . # drawioからの相対dir
 
+
       - name: Get author and committer info from HEAD commit
         uses: rlespinasse/git-commit-data-action@v1.x
         if: github.ref == 'refs/heads/main'
